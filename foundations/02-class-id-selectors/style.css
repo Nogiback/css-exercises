@@ -1,6 +1,6 @@
 .odd {
     background-color:rgb(253, 136, 136);
-    font-family: "Verdana", DejaVu Sans, sans-serif;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 .cooler{
@@ -14,6 +14,5 @@
 
 #fourth{
     background-color: rgb(139, 250, 148);
-    font-size: 24px;
     font-weight: bold;    
 }
