@@ -8,6 +8,7 @@
   cursor: pointer;
 }
 
+
 .menu-title {
   background-color: rgb(163, 162, 162);
 }
@@ -27,6 +28,18 @@ ul.dropdown-menu li:hover {
 
 .visible {
   display: block;
+  transform-origin: top center;
+  animation: 0.5s dropBounce ease-in-out; 
 }
 
-
+@keyframes dropBounce {
+  0% {
+    transform: scaleY(0);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
